@@ -1,0 +1,171 @@
+/**************************** TAGS SELECTORS *********************************/
+body {
+  margin: 0;
+  /* you can just say margin = 0 for all top bot right and left auto stands for centar*/
+  text-align: center;
+  /*center everything inside the body*/
+  font-family: 'Merriweather', serif;
+  /*here we go from the left to the right font order*/
+
+}
+
+h1 {
+  font-size: 562.5%;
+  /* 16px = 100% >>> 90px/16px = 562.5% * هنا عشان اخلي الخط يمشي مع اي حجم شاشة*/
+  /*1em = 16px*/
+  font-family: 'Sacramento', cursive;
+  margin: 50px auto 0 auto;
+  /*top right buttom left*/
+  color: #66BFBF;
+  line-height: 2;
+  font-weight: bold;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  /*1em = 16px >>>> 2.5 = 40px/16px >>>>> rem stand for fixed size*/
+  color: #66BFBF;
+  font-weight: bold;
+  /*to remove the Bold*/
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+  font-weight: bold;
+}
+
+a {
+  color: #11999E;
+  font-weight: bold;
+  margin: auto 25px auto 25px;
+}
+
+p{
+color: #40514E;
+font-weight: bold;
+}
+/************************** CLASS SELECTORS **********************************/
+.top-container {
+  background-color: #E4F9F5;
+  position: relative;
+  padding: 100px;
+  margin-bottom: 70px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+
+/*float it's say clear everything in the left and make the img in the left side*/
+.computer-img {
+  float: left;
+  margin: 10px 30px 30px 30px;
+  width: 15%;
+
+}
+
+/*clear it's say clear everything in the left and make the text in the left side
+.code-skill-description-html{
+  clear: left;
+}
+.code-skill-description-css{
+clear: right;
+}
+*/
+.best-skill-img {
+  float: right;
+  margin: 10px 30px 30px 30px;
+  width: 15%;
+}
+
+.js-img {
+  float: left;
+  margin: 10px 30px 30px 30px;
+  width: 15%;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.middle-container {
+
+}
+
+.me-image {
+  width: 15%
+}
+
+.skill-row {
+  margin: 100px auto 100px auto;
+  /*auto will centar the div from the right and left*/
+  width: 50%;
+  text-align: left;
+  line-height: 2;
+}
+
+.hr-all-page {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 5px;
+  width: 5%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+margin-top: 70px;
+padding: 50px;
+
+
+}
+.btn {/*FROM https://www.designrush.com/resources/css3buttongenerator*/
+  background: #66BFBf;
+  background-image: -webkit-linear-gradient(top, #66BFBf, #11999E);
+  background-image: -moz-linear-gradient(top, #66BFBf, #11999E);
+  background-image: -ms-linear-gradient(top, #66BFBf, #11999E);
+  background-image: -o-linear-gradient(top, #66BFBf, #11999E);
+  background-image: linear-gradient(to bottom, #66BFBf, #11999E);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 22px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+
+
+}
+
+/************************** ID SELECTORS *************************************/
+
+#yahya-zawawi{
+  color: #EAF6F6;
+  margin-top: 50px;
+  font-weight: normal;
+
+}
+#btn-margen{
+  margin-bottom: 50px;
+}
+
+#if-you{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-weight:  bold;
+
+}
